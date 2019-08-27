@@ -1,6 +1,6 @@
 package com.leetcode;
 
-public class SolutionMergeTwoLists {
+public class MergeTwoSortedLists {
 
 	/**
 	 * @param args
@@ -29,7 +29,7 @@ public class SolutionMergeTwoLists {
 		nLast = nNew;
 		print(l2);
 		
-		SolutionMergeTwoLists s = new SolutionMergeTwoLists();
+		MergeTwoSortedLists s = new MergeTwoSortedLists();
 		ListNode merge = s.mergeTwoLists(l1, l2);
 		print(merge);
 	}

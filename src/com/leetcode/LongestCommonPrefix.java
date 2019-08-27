@@ -2,13 +2,13 @@ package com.leetcode;
 
 import com.my.util.MyUtil;
 
-public class SolutionLongestCommonPrefix {
+public class LongestCommonPrefix {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		SolutionLongestCommonPrefix s = new SolutionLongestCommonPrefix();
+		LongestCommonPrefix s = new LongestCommonPrefix();
 		
 		String[] strs = new String[]{"flow", "flower", "flight"};
 		MyUtil.print(s.longestCommonPrefix(strs));
@@ -34,7 +34,7 @@ public class SolutionLongestCommonPrefix {
 			}
 		}
 		//
-		StringBuffer commonPrefix = new StringBuffer("");
+		StringBuilder commonPrefix = new StringBuilder("");
 		for (int i = 0; i < shortestLenth; i++) {
 			boolean diffChar = false;
 			for (int j = 1; j < strs.length; j++) {

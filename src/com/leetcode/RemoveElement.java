@@ -2,13 +2,13 @@ package com.leetcode;
 
 import com.my.util.MyUtil;
 
-public class SolutionRemoveElement {
+public class RemoveElement {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		SolutionRemoveElement s = new SolutionRemoveElement();
+		RemoveElement s = new RemoveElement();
 		
 		int[] nums = null;
 		int val = 9;

@@ -4,13 +4,13 @@ import java.util.Stack;
 
 import com.my.util.MyUtil;
 
-public class SolutionIsValid {
+public class ValidParentheses {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		SolutionIsValid s = new SolutionIsValid();
+		ValidParentheses s = new ValidParentheses();
 //		String s1 = "()";
 //		MyUtil.print(s.isValid(s1));
 		

@@ -2,9 +2,9 @@ package com.leetcode;
 
 import com.my.util.MyUtil;
 
-public class SolutionRemoveDuplicates {
+public class RemoveDuplicatesFromSortedArray {
 	public static void main(String[] args) {
-		SolutionRemoveDuplicates s = new SolutionRemoveDuplicates();
+		RemoveDuplicatesFromSortedArray s = new RemoveDuplicatesFromSortedArray();
 		
 		int[] nums = new int[]{1, 1, 2};
 		MyUtil.print(s.removeDuplicates(nums));

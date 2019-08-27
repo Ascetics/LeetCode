@@ -3,13 +3,13 @@ package com.leetcode;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class SolutionRomanToInt {
+public class RomanToInt {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		SolutionRomanToInt s = new SolutionRomanToInt();
+		RomanToInt s = new RomanToInt();
 		
 		System.out.println(s.romanToInt("I"));// I = 1
 		System.out.println(s.romanToInt("V"));// V = 5
@@ -40,7 +40,6 @@ public class SolutionRomanToInt {
 	}
 
 	/**
-	 * 字符  数值
 	 * I = 1
 	 * V = 5
 	 * X = 10
@@ -53,21 +52,22 @@ public class SolutionRomanToInt {
 	 * XII = 12
 	 * XXVII = 27
 	 * 
-	 * I在VX左边表示减
+	 * I
 	 * IV = 4
 	 * IX = 9
 	 * 
-	 * X在LC左边表示减
+	 * X
 	 * XL = 40
 	 * XC = 90 
 	 * 
-	 * C在DM左边表示减
+	 * C
 	 * CD = 400
 	 * CM = 900
 	 * 
 	 * @param s
 	 * @return
 	 */
+	// TODO ̫��
 	public int romanToInt(String s) {
 		int result = 0;
 		

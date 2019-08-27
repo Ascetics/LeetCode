@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 import com.my.util.MyUtil;
 
-public class SolutionSearchInsert {
+public class SearchInsertPosition {
 	public static void main(String[] args) {
-		SolutionSearchInsert s = new SolutionSearchInsert();
+		SearchInsertPosition s = new SearchInsertPosition();
 
 		int[] nums = null;
 		MyUtil.print(s.searchInsert(nums, 3));

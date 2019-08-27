@@ -3,13 +3,13 @@ package com.leetcode;
 
 import com.my.util.MyUtil;
 
-public class SolutionStrStr {
+public class ImplementStrStr {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		SolutionStrStr s = new SolutionStrStr();
+		ImplementStrStr s = new ImplementStrStr();
 		
 		String haystack = "hello";
 		String needle = "ll";

@@ -1,12 +1,12 @@
 package com.leetcode;
 
-public class SolutionReverse {
+public class ReverseInteger {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		SolutionReverse s = new SolutionReverse();
+		ReverseInteger s = new ReverseInteger();
 		
 		System.out.println(s.reverse(Integer.MIN_VALUE));
 //		System.out.println(s.reverse(Integer.MAX_VALUE));
@@ -20,17 +20,15 @@ public class SolutionReverse {
 	}
 
 	public int reverse(int x) {
-		// 负数
 		boolean isNegative = false;
 		if (x < 0) {
 			isNegative = true;
 		}
-		// 检测反转后整数溢出，返回0
 		int absX = Math.abs(x);
-		if (absX == Integer.MIN_VALUE) { //负2^32-1
+		if (absX == Integer.MIN_VALUE) { 
 			return 0;
 		}		
-		StringBuffer sbuf = new StringBuffer(String.valueOf(absX));
+		StringBuilder sbuf = new StringBuilder(String.valueOf(absX));
 		String reverseStrAbsX = sbuf.reverse().toString();
 		String strMaxValue = String.valueOf(Integer.MAX_VALUE);
 		if ((reverseStrAbsX.length() >= strMaxValue.length()) && reverseStrAbsX.compareTo(strMaxValue) > 0) {
